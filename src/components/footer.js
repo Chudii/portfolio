@@ -14,7 +14,7 @@ const Footer = () => {
                     <Email className='email'/>
                 </div>
             </div>
-            <p> &copy; 2022 codenamechu.com</p>
+            <p>&copy; 2022 codenamechu.com</p>
         </div>
     )
 }

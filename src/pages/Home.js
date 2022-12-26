@@ -11,27 +11,27 @@ const Home = () => {
                 </div>
                 
                 <div className='icons'>
-                    <GitHub id='github'/>
-                    <LinkedIn id='linkedin'/>
-                    <Email id='email'/>
+                    <GitHub className='github'/>
+                    <LinkedIn className='linkedin'/>
+                    <Email className='email'/>
                 </div>
-                <div className='skills'>
-                    <h1>Skills</h1>
-                    <ol className='list'>
-                        <li className='item'>
-                            <h2>Front-End</h2>
-                            <span>
-                                ReactJS, Redux, HTML, CSS, NPM, Bootstrap, MaterialUI, StyledComponents
-                            </span>
-                        </li>
-                        <li className='item'>
-                            <h2>Back-End</h2>
-                            <span>
-                                NodeJs, ExpressJS, MongoDB, Socket.io
-                            </span>
-                        </li>
-                    </ol>
-                </div>
+            </div>
+            <div className='skills'>
+                <h1>Skills</h1>
+                <ol className='list'>
+                    <li className='item'>
+                        <h2>Front-End</h2>
+                        <span>
+                            ReactJS, Redux, HTML, CSS, NPM, Bootstrap, MaterialUI, StyledComponents
+                        </span>
+                    </li>
+                    <li className='item'>
+                        <h2>Back-End</h2>
+                        <span>
+                            NodeJs, ExpressJS, MongoDB, Socket.io
+                        </span>
+                    </li>
+                </ol>
             </div>
         </div>
     )

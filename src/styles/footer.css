@@ -22,11 +22,11 @@
   cursor: pointer;
 }
 
-.github {
+.icons .github, .icons .instagram {
     font-size: 30px;
 }
 
-.linkedin, .email, .instagram {
+.icons .linkedin, .icons .email {
     font-size: 35px;
 }
 

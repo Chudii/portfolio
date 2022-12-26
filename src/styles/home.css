@@ -1,7 +1,111 @@
-#github {
+.home {
+    width: 100%;
+    align-items: center;
+}
+
+.about {
+    width: 100%;
+    padding-bottom: 100px;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #D0B8A8;
+}
+
+.about h2 {
+    font-size: 80px;
+    height: fit-content;
+    color: #F8EDE3;
+}
+
+.about h2 span {
+    font-family: 'Sanchez';
+    color: #85586F;
+    background-image: linear-gradient(to right,#7e4f67, #85586F, #a06282, #85586F, #7e4f67); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    animation: rainbow-animation 150s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+.about p {
+    padding: 40px 0;
+    color: white;
+}
+
+.about .prompt {
+    width: 40%;
     font-size: 30px;
 }
 
-#linkedin, #email {
+.icons {
+    color: white;
+    column-gap: 30px;
+}
+
+.about .icons .email {
+    font-size: 70px;
+}
+
+.about .icons .github {
+    font-size: 50px;
+}
+
+.about .icons .linkedin {
+    font-size: 60px;
+}
+
+.skills {
+    background-color: #f8f9f9;
+    height: 100vh;
     font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.skills h1 {
+    color: #AC7D88;
+}
+  
+.skills .list {
+    list-style: none;
+    width: 60%;
+}
+  
+.list span {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .about h2 {
+        font-size: 40px;
+    }
+  
+    .about .prompt {
+        margin-top: 10px;
+        font-size: 20px;
+        width: 80%;
+    }
+  
+    .skills {
+        text-align: center;
+    }
+    .list {
+        padding: 0;
+    }
+  
+    .skills h2 {
+        font-size: 30px;
+    }
 }
