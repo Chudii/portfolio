@@ -82,9 +82,15 @@
     list-style: none;
     width: 60%;
 }
+
+.list li {
+    padding: 20px 0;
+}
   
 .list span {
     font-size: 20px;
+    padding: 20px 0;
+    font-family: 'Sanchez';
 }
 
 @media only screen and (max-width: 600px) {

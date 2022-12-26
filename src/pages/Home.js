@@ -28,7 +28,7 @@ const Home = () => {
                     <li className='item'>
                         <h2>Back-End</h2>
                         <span>
-                            NodeJs, ExpressJS, MongoDB, Socket.io
+                            NodeJs, ExpressJS, MongoDB, Socket.io, Postman
                         </span>
                     </li>
                 </ol>
