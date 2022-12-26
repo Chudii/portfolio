@@ -36,7 +36,11 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .footer svg {
-    font-size: 50px;
+  .icons .github {
+    font-size: 45px;
+  }
+
+  .icons .email, .icons .linkedin, .icons .instagram {
+    font-size: 55px;
   }
 }
