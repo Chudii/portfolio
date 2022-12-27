@@ -1,0 +1,12 @@
+.contact {
+    background: url('../assets/images/layered-waves.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    height: calc(100vh - 100px);
+}
