@@ -72,25 +72,35 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
   
 .skills h1 {
     color: #AC7D88;
 }
+
+.skills h2 {
+    color: #DEB6AB;
+    font-size: 2.2rem;
+    align-self: flex-start;
+}
+
+.skills p {
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Sanchez';
+}
   
 .skills .list {
     list-style: none;
-    width: 60%;
+    width: 50%;
 }
 
 .list li {
-    padding: 20px 0;
-}
-  
-.list span {
-    font-size: 20px;
-    padding: 20px 0;
-    font-family: 'Sanchez';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
 }
 
 @media only screen and (max-width: 600px) {

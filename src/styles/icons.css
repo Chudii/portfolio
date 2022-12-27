@@ -1,0 +1,50 @@
+.skill-icons {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 15px;
+}
+
+.skill-icons > div {
+    width: 120px;
+    height: 150px;
+    margin: 10px;
+}
+
+.skill-icons > div > img {
+    border: 3px solid;
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+#html-icon {
+    background-color: rgb(255, 162, 119);
+}
+
+#css-icon {
+    background-color: rgb(133, 206, 255);
+}
+
+#react-icon {
+    background-color: rgb(193, 246, 255);
+}
+
+#js-icon {
+    background-color: rgb(255, 236, 152);
+}
+
+#redux-icon {
+    background-color: rgb(201, 154, 233);
+}
+
+#npm-icon {
+    background-color: rgb(236, 115, 115);
+}
+
+#bootstrap-icon {
+    
+}
