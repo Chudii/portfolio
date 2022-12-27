@@ -74,6 +74,7 @@ const Home = () => {
                                 <p>Styled Components</p>
                             </div>
                         </div>
+                        
                     </li>
                     <li className='item'>
                         <h2>Back-End</h2>
