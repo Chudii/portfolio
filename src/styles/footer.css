@@ -1,37 +1,38 @@
 .footer {
   width: 100%;
   height: 200px;
-  background: #D0B8A8;
+  background: #d0b8a8;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 200px;
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-media svg {
-    width: fit-content;
+  width: fit-content;
   color: white;
   margin: 20px;
   cursor: pointer;
 }
 
-.icons .github, .icons .instagram {
-    font-size: 30px;
+.icons .github,
+.icons .instagram {
+  font-size: 30px;
 }
 
-.icons .linkedin, .icons .email {
-    font-size: 35px;
+.icons .linkedin,
+.icons .email {
+  font-size: 35px;
 }
 
 .footer p {
-    width: 100%;
+  width: 100%;
   color: white;
 }
 
@@ -40,7 +41,9 @@
     font-size: 45px;
   }
 
-  .icons .email, .icons .linkedin, .icons .instagram {
+  .icons .email,
+  .icons .linkedin,
+  .icons .instagram {
     font-size: 55px;
   }
 }

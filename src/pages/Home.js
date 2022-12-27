@@ -67,7 +67,7 @@ const Home = () => {
                             </div>
                             <div>
                                 <img id='materialui-icon' src={MaterialUIIcon} alt='materialui icon'/>
-                                <p>Material UI</p>
+                                <p>MaterialUI</p>
                             </div>
                             <div>
                                 <img id='sc-icon' src={SCIcon} alt='sc icon'/>
@@ -99,9 +99,6 @@ const Home = () => {
                                 <p>Postman</p>
                             </div>
                         </div>
-                        {/* <span>
-                            NodeJs, ExpressJS, MongoDB, Socket.io, Postman
-                        </span> */}
                     </li>
                 </ol>
             </div>

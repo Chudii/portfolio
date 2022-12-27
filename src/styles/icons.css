@@ -66,9 +66,13 @@
     border-color: rgb(38, 167, 38);
 }
 
+#sc-icon, #express-icon, #socketio-icon {
+    background-color: white;
+}
+
 #mongodb-icon {
     background-color: rgb(156, 221, 156);
-    border-color: rgb(38, 167, 38);
+    border-color: rgb(59, 196, 59);
 }
 
 #postman-icon {
