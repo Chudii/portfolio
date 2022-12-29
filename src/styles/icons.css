@@ -12,6 +12,11 @@
     margin: 10px;
 }
 
+.skill-icons > div > p {
+    font-size: 1rem;
+    font-family: 'Sanchez';
+}
+
 .skill-icons > div > img {
     border: 4px solid;
     width: 120px;

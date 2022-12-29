@@ -72,7 +72,7 @@ const Home = () => {
                             </div>
                             <div>
                                 <img id='sc-icon' src={SCIcon} alt='sc icon'/>
-                                <p>Styled Components</p>
+                                <p>Styled Comp</p>
                             </div>
                         </div>
                         
