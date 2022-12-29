@@ -18,7 +18,12 @@ const About = () => {
             <h1>About Me</h1>
             <p>/choo-dee ee-BEE-dah/</p>
             <div className='about-content'>
-                <img className='profile-pic' src={profilePic} alt='' />
+                <div className='profile-img'>   
+                    <div className='profile-circle circle-3'></div>
+                    <div className='profile-circle circle-2'></div>
+                    <div className='profile-circle circle-1'></div>
+                    <img className='profile-pic' src={profilePic} alt='' />
+                </div>
                 <div className='about-text'>
                     <p>{text}</p>
                 </div>

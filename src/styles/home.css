@@ -36,8 +36,9 @@
 }
 
 .main p {
+    font-family: 'Sanchez';
     padding: 40px 0;
-    color: white;
+    color: #F8EDE3;
 }
 
 .main .prompt {
@@ -51,15 +52,15 @@
 }
 
 .main .icons .email {
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .main .icons .github {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .main .icons .linkedin {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .skills {
@@ -115,13 +116,38 @@
 }
 
 .profile-pic {
-    /* border: 5px solid #DFD3C3; */
     border-radius: 60%;
     height: 250px;
     width: 250px;
     object-fit: cover;
     transform: rotate(10deg);
-    box-shadow: 0 0 30px #ccc;
+}
+
+.profile-img {
+    position: relative;
+    display: flex;
+}
+
+.profile-circle {
+    border-radius: 50%;
+    position: absolute;
+    height: 250px;
+    width: 250px;
+}
+
+.circle-1 {
+    background-color: #AC7D88;
+    left: 5px;
+}
+
+.circle-2 {
+    background-color: #bd8f9a;
+    left: 10px;
+}
+
+.circle-3 {
+    background-color: #c9a3ac;
+    left: 15px;
 }
 
 .about-content {
@@ -129,7 +155,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 55px;
 }
 
 .about-text {
@@ -140,6 +166,7 @@
 }
 
 .about-text p {
+    width: 500px;
     height: fit-content;
     color: #AC7D88;
     font-family: 'Sanchez';
