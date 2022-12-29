@@ -23,7 +23,7 @@ const Home = () => {
             <div className='main'>
                 <h2>Hi, I'm <span>Chudi Ibida</span>.</h2>
                 <div className='prompt'>
-                    <p>An aspiring web developer fueled by a passion to learn and an eagerness to explore through design.</p>
+                    <p>A web developer fueled by a passion to learn and an eagerness to explore through design.</p>
                 </div>
                 
                 <div className='icons'>

@@ -25,12 +25,6 @@ const Contact = () => {
                         }}
                     />
                 </div>
-                <form>
-                    <input type='text' placeholder='First Name'/>
-                    <input type='text' placeholder='Last Name'/>
-                    <input type='text' placeholder='Email'/>
-                    <textarea placeholder='Message'/>
-                </form>
             </div>
         </div>
     )

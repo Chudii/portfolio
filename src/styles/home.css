@@ -124,8 +124,10 @@
 }
 
 .profile-img {
+    padding-top: 30px;
     position: relative;
     display: flex;
+    align-self: flex-start;
 }
 
 .profile-circle {
