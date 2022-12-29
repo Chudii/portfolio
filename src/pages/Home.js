@@ -1,6 +1,7 @@
 import { Email, GitHub, LinkedIn } from '@material-ui/icons'
 import '../styles/home.css'
 import '../styles/icons.css'
+import About from '../components/about'
 import HTMLIcon from '../assets/images/html5-icon.svg'
 import CSSIcon from '../assets/images/css3-icon.svg'
 import JSIcon from '../assets/images/javascript-icon.svg'
@@ -19,7 +20,7 @@ import PostmanIcon from '../assets/images/postman-icon.svg'
 const Home = () => {
     return (
         <div className='home'>
-            <div className='about'>
+            <div className='main'>
                 <h2>Hi, I'm <span>Chudi Ibida</span>.</h2>
                 <div className='prompt'>
                     <p>An aspiring web developer fueled by a passion to learn and an eagerness to explore through design.</p>
@@ -103,6 +104,7 @@ const Home = () => {
                     </li>
                 </ol>
             </div>
+            <About />
         </div>
     )
 }

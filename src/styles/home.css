@@ -3,7 +3,7 @@
     align-items: center;
 }
 
-.about {
+.main {
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
@@ -14,13 +14,13 @@
     background-color: #D0B8A8;
 }
 
-.about h2 {
+.main h2 {
     font-size: 80px;
     height: fit-content;
     color: #F8EDE3;
 }
 
-.about h2 span {
+.main h2 span {
     font-family: 'Sanchez';
     color: #85586F;
     background-image: linear-gradient(to right,#7e4f67, #85586F, #a06282, #85586F, #7e4f67); 
@@ -35,12 +35,12 @@
     }
 }
 
-.about p {
+.main p {
     padding: 40px 0;
     color: white;
 }
 
-.about .prompt {
+.main .prompt {
     width: 40%;
     font-size: 30px;
 }
@@ -50,15 +50,15 @@
     column-gap: 30px;
 }
 
-.about .icons .email {
+.main .icons .email {
     font-size: 70px;
 }
 
-.about .icons .github {
+.main .icons .github {
     font-size: 50px;
 }
 
-.about .icons .linkedin {
+.main .icons .linkedin {
     font-size: 60px;
 }
 
@@ -74,7 +74,7 @@
     text-align: center;
 }
   
-.skills h1 {
+.skills h1, .about h1 {
     color: #AC7D88;
 }
 
@@ -102,12 +102,62 @@
     padding: 10px 0;
 }
 
+.about {
+    height: 100vh;
+    width: 100%;
+    background-color: #DFD3C3;
+}
+
+.about > p {
+    padding: 0 0 50px 0;
+    color: #AC7D88;
+}
+
+.about h1 {
+    padding: 100px 0 0 0;
+    font-size: 70px;
+    color: #AC7D88;
+}
+
+.profile-pic {
+    border: 1px solid #AC7D88;
+    border-radius: 60%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    transform: rotate(10deg);
+    box-shadow: 0 0 30px #ccc;
+}
+
+.about-content {
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.about-text {
+    text-align:left;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+}
+
+.about-text p {
+    height: fit-content;
+    color: #AC7D88;
+    font-family: 'Sanchez';
+    font-size: 20px;
+    white-space: pre-line;
+}
+
 @media only screen and (max-width: 600px) {
-    .about h2 {
+    .main h2 {
         font-size: 40px;
     }
   
-    .about .prompt {
+    .main .prompt {
         margin-top: 10px;
         font-size: 20px;
         width: 80%;
