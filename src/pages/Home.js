@@ -16,6 +16,7 @@ import ExpressIcon from '../assets/images/expressjs-icon.svg'
 import MongoDBIcon from '../assets/images/mongodb-icon.svg'
 import SocketIoIcon from '../assets/images/socket.io-icon.svg'
 import PostmanIcon from '../assets/images/postman-icon.svg'
+import Projects from '../components/projects'
 
 const Home = () => {
     return (
@@ -105,6 +106,7 @@ const Home = () => {
                 </ol>
             </div>
             <About />
+            <Projects />
         </div>
     )
 }

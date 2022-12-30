@@ -1,0 +1,11 @@
+.projects {
+    height: 100vh;
+    width: 100%;
+    background-color: #f8f9f9;
+}
+
+.projects h1 {
+    padding: 100px 0 0 0;
+    font-size: 70px;
+    color: #AC7D88;
+}
