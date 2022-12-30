@@ -1,6 +1,6 @@
 import '../styles/projects.css'
 
-const Project = () => {
+const Project = ({ thumb, title, link }) => {
     return (
         <div className='project'>
 

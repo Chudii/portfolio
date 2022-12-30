@@ -110,7 +110,7 @@
 }
 
 .about h1 {
-    padding: 100px 0 0 0;
+    padding: 75px 0 0 0;
     font-size: 70px;
     color: #AC7D88;
 }
@@ -156,18 +156,22 @@
     height: fit-content;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     column-gap: 55px;
 }
 
 .about-text {
+    width: 50vw;
+    background-color: #D0B8A8;
     text-align:left;
     display: flex;
     justify-content: flex-start;
-    width: 600px;
+    
 }
 
 .about-text p {
+    width: 600px;
+    padding: 0 0 30px 30px;
     width: 500px;
     height: fit-content;
     color: #AC7D88;
