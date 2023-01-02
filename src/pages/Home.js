@@ -34,7 +34,10 @@ const Home = () => {
                 </div>
             </div>
             <div className='skills'>
-                <h1>Skills</h1>
+                <div className='scene-title'>
+                    <h1>Skills</h1>
+                </div>
+                
                 <ol className='list'>
                     <li className='item'>
                         <h2>Front-End</h2>
