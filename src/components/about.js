@@ -15,8 +15,10 @@ const About = () => {
 
     return (
         <div className='about'>
-            <h1>About Me</h1>
-            <p>/choo-dee ee-BEE-dah/</p>
+            <div className='scene-title'>
+                <h1>About Me</h1>
+                <p>/choo-dee ee-BEE-dah/</p>
+            </div>
             <div className='about-content'>
                 <div className='profile-img'>   
                     <div className='profile-circle circle-3'></div>
